@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+a{
+    text-decoration:none;
+}
+
+
+
+nav{
+    background-color: #02918b;
+}
+
+nav .container{
+    width: 1170px;
+    margin: auto;
+    padding: 18px 0 23px 0;
+   }
+
+
+
+
+
+nav .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+nav .row ul li{
+    display: inline-block;
+}
+
+nav .row ul li a{
+    color: #ffffff;
+    padding: 0 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+#banner{
+    background-image: url('./image/banner\ \(2\).png');
+    height: 727px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 727px;
+    color: #ffffff;
+}
+#banner .container img{
+    margin-top: 65px;
+}
+
+#banner .row h4{
+    font-size: 30px;
+}
+
+#banner .row h1{
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 16px;
+    font-weight: bold;  
+}
+
+#banner a{
+    padding: 19px 42px;
+    background-color: #cfc91d;
+    margin-top: 52px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;   
+}
+
+
